@@ -64,6 +64,8 @@ my_matrix <- matrix(data=my_values, byrow=TRUE, nrow=2, ncol=5)
 my_matrix
 
 5 * my_matrix
+
+6 * my_matrix
 ```
 
 
