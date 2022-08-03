@@ -33,4 +33,39 @@ scalar_pika <- 5.2 * pika
 scalar_pika
 ```
 
+```{r}
+
+bananas <- c(1, 2, 3)
+
+apples <- c(6, 7, 8)
+
+#vector addition
+
+bananas + apples
+
+#vector subtraction
+
+bananas - apples
+
+#dot product
+
+bananas %*% apples
+
+
+```
+
+###Matrices!!!
+
+```{r}
+my_values <- seq(from = 1, to = 10)
+
+my_matrix <- matrix(data=my_values, byrow=TRUE, nrow=2, ncol=5)
+
+my_matrix
+
+5 * my_matrix
+```
+
+
+
 
