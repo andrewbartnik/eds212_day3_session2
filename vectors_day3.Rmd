@@ -66,6 +66,12 @@ my_matrix
 5 * my_matrix
 
 6 * my_matrix
+
+#cool update!!
+
+df <- data.frame(my_matrix)
+df
+
 ```
 
 
