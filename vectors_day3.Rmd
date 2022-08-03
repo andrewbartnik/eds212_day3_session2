@@ -1,0 +1,36 @@
+---
+title: "creating & working with vectors"
+author: "Andrew Bartnik"
+date: "2022-08-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(palmerpenguins)
+```
+
+##Make some vectors!!!
+
+```{r}
+marmots <- c("blue", "green", 4, "yellow")
+
+
+#check the class!! Do this often
+class(marmots)
+
+##another vector
+
+pika <- c(12.4, 6.8, 2.9, 8.8, 5)
+
+## check the class!!
+
+class(pika)
+
+# Scalar multiplier
+scalar_pika <- 5.2 * pika
+scalar_pika
+```
+
+
